@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <!-- ===========BOX ICON========== -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <title>My portfolio website</title>
+</head>
+
+<body>
+    <!-- ===== HEADER ===== -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <h1><a href="#" class="nav__logo">Tech Sourav</a></h1>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Project</a></li>
+                    <li class="nav__item"><a href="https://techsourav.com/" target="blank" class="nav__link">My Blog</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- ===== HOME ===== -->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi, <br>I'am <span class="home__title-color">Sourav</span></br>A Web Developer</h1>
+                <a href="#about"  class="button">Explore</a>
+            </div>
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/sourav-lakshan-9115111b8/" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.hackerrank.com/souravbuie17" target="_blank" class="home__social-icon"><i class='bx bx-code-curly' ></i></a>
+                <a href="https://github.com/Souravvk18" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            <div class="home__img">
+                <img  src="./img/profile.jpeg" alt="Welcome">
+            </div>
+        </section>
+        <!-- ===== ABOUT ===== -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="bd-grid about__container bd-grid">
+                 <div class="about__img">
+                    <img src="./img/souravl.jpg" alt="aboutMe">
+                 </div>
+
+                 <div>
+                     <h2 class="about__subtitle">I am Sourav</h2>
+                     <p class="about__text">A dedicated, passionate Final year CSE Student, Web Development Enthusiast & Python Lover. <br> <br>
+                        Learning MERN stack Development, and Data Structures & Aogorithms.<br> <br>
+                        looking to associate with an organization where I can constantly upgrade my knowledge and skills while adding values to the organization that I serve and represent.</p>
+                 </div>
+            </div>
+        </section>
+        <!-- ===== SKILLS ===== -->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Profesional Skills</h2>
+                    <p class="skills__text"> If you love what you are doing, you will be successful.</p>
+                    <div class="skills__data">
+                        <div class="skills_names">
+                            <i class='bx bxl-python skills__icon'></i>
+                            <span class="skills-name">PYTHON3</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                        <div class="skills__bar skills__py"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills_names">
+                            <i class='bx bxl-codepen skills__icon'></i>
+                            <span class="skills-name">Data Structures & Algorithms</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">60%</span>
+                        </div>
+                        <div class="skills__bar skills__ds"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills_names">
+                            <i class='bx bxl-javascript skills__icon' ></i>
+                            <span class="skills-name">Javascript</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                        <div class="skills__bar skills__js"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills_names">
+                            <i class='bx bxl-react skills__icon' ></i>
+                            <span class="skills-name">React</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">30%</span>
+                        </div>
+                        <div class="skills__bar skills__react"></div>
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills_names">
+                            <i class='bx bxl-nodejs skills__icon' ></i>
+                            <span class="skills-name">Nodejs</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">40%</span>
+                        </div>
+                        <div class="skills__bar skills__nodejs"></div>
+                    </div>
+                    <!-- <div class="skills__data">
+                        <div class="skills_names">
+                            <i class='bx bx-extension skills__icon' ></i>
+                            <span class="skills-name">Express</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                        <div class="skills__bar skills__express"></div>
+                    </div> -->
+                    <div class="skills__data">
+                        <div class="skills_names">
+                            <i class='bx bxs-collection skills__icon'></i>
+                            <span class="skills-name">MongoDb</span>
+                        </div>
+                        <div>
+                            <span class="skills__percentage">50%</span>
+                        </div>
+                        <div class="skills__bar skills__mongo"></div>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/laptop.jpg" alt="work" class="skills__img">
+                </div>
+            </div>
+        </section>
+        <!-- ===== WORK ===== -->
+        <section class="work section" id="work">
+            <h2 class="section-title">My Project</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="./img/Screenshot11.png" alt="work">
+                </div>
+                <div class="work__img">
+                    <img src="./img/Screenshot11.png" alt="work">
+                </div>
+                <div class="work__img">
+                    <img src="./img/Screenshot11.png" alt="work">
+                </div>
+                <div class="work__img">
+                    <img src="./img/Screenshot11.png" alt="work">
+                </div>
+                <div class="work__img">
+                    <img src="./img/Screenshot11.png" alt="work">
+                </div>
+                <div class="work__img">
+                 <a href="https://techsourav.com/" target="blank">   <img src="./img/Screenshot11.png" alt="work"> </a>
+                </div>
+            </div>
+        </section>
+        <!-- ===== CONTACT ===== -->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Name" class="contact__input">
+                    <input type="mail" placeholder="Email" class="contact__input">
+                    <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+
+                    <a href="#" target="_blank"><input  type="button" value="Submit" class="contact__button button"></a>
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- ===== FOOTER ===== -->
+     <footer class="footer">
+         <p class="footer__title">Tech Sourav</p>
+
+         <div class="footer__social">
+            <a href="https://www.facebook.com/profile.php?id=100072392437644" class="footer__icon"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/sourav-lakshan-9115111b8/" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://twitter.com/TechSourav2?s=08" class="footer__icon"><i class="bx bxl-twitter"></i></a>
+         </div>
+         <p> Made with <i class="bx bxs-calendar-heart"> </i> by @Sourav</i></p>
+     </footer>   
+    <!-- ===== SCROLL REVEAL ===== -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- ===== MAIN JS ===== -->
+    <script src="/main.js"></script>
+</body>
+
+</html>
